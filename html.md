@@ -20,7 +20,7 @@ This is an example:
 ```html 
 <p></p>
 ```
-<p> is the opening tag, and </p> is the closing tag.
+The first one is the opening tag, and the last one is the closing tag.
 
 An HTML element has two properties, the *content* and the *attributes*.
 
