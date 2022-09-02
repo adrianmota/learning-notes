@@ -77,6 +77,7 @@ Let's take a look to a basic HTML page
 In the last example, we could see a basic HTML page, and I will explain each part of that:
 
 ## The DOCTYPE declaration
+
 At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration, what does it mean?, HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the following lines are HTML code, and that the HTML version is the last, this is used to indicate the browsers that the page works with the latest features of HTML, and to help the browsers show the web pages correctly.
 
 Many websites use previous versions of HTML, so, the modern browsers have to deal with previous versions of HTML due to the compatibility. That said, each time we create a new web page, we have to define the type declaration of the document, that indicates that the file is an HTML file and that it's using the lastest HTML version.
@@ -87,6 +88,7 @@ Always include at the beginning of all the web pages the type declaration:
 ```
 
 ## Headings
+
 HTML is used to define the struture and meaning of the information, so to define the different sections of topics, subtopics and so on, we use the heading elements. The heading elements are compound of 6 levels, from level 1 which is the most important to level 6 which is the least important. From up to bottom is recommendable using the most important level to the least important level.
 
 Example:
@@ -100,3 +102,26 @@ Example:
 ```
 
 Note: don't confuse the different levels of headings with size, the heading are used to give meaning, if we want only use the headings because of the size, we must use CSS to change the size of the text instead using the headings.
+
+## Nested HTML elements
+
+An HTML page is compound of nested elements, that's normal. Nested elements means that there are elements into another elements.
+
+For example:
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+```
+
+In the last example we could see that there are HTML elements into other HTML elements, like *h1* inside *body*, and *body* inside *html*, and so on.
+
+But let's explain this basic elements:
+\<html\>: it is the root element of the page, which represents the whole document. In it are defined the rest of the elements.
+\<body\>: it is the body element of the page, this represents the visible content of the web page. It goes inside the \<html\> element.
+\<h1\>: it is the level 1 heading, which is the most important heading in the page.
+\<p\>: it is the paragraph element, which represents semantically a paragraph.
