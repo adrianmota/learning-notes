@@ -116,7 +116,28 @@ For example:
 In the last example we could see that there are HTML elements into other HTML elements, like *h1* inside *body*, and *body* inside *html*, and so on.
 
 But let's explain this basic elements:
-\<html\>: it is the root element of the page, which represents the whole document. In it are defined the rest of the elements.
-\<body\>: it is the body element of the page, this represents the visible content of the web page. It goes inside the \<html\> element.
-\<h1\>: it is the level 1 heading, which is the most important heading in the page.
-\<p\>: it is the paragraph element, which represents semantically a paragraph.
+- \<html\>: it is the root element of the page, which represents the whole document. In it are defined the rest of the elements.
+- \<body\>: it is the body element of the page, this represents the visible content of the web page. It goes inside the \<html\> element.
+- \<h1\>: it is the level 1 heading, which is the most important heading in the page.
+- \<p\>: it is the paragraph element, which represents semantically a paragraph.
+
+## Attributes
+Let's talk about some attributes. As we said before attributes are additional information about the elements. These give that information to affect the element in one or another way.
+
+When we use an \<a\> tag, it is to create a hyperlink, and the attribute made to that purpose is *href* which stands for hyper text reference, where as a value you define an absolute or relative URL to the page that the hyperlink points to. 
+
+```html
+<a href="https://www.wikipedia.org">Visit wikipedia.org</a>
+```
+
+As the example above, this is done to define the page that the hyperlink points to, once clicked over the hyperlink we get that page in the browser's screen.
+
+Another example with images, the \<img\> tag is used to embed images in the HTML document, using the *src* attribute, and we define an alternative text that is shown in case the image isn't loaded because it was not found, the URL are wrong, slow connection, or the client is not a visual browser, etc.
+
+```html
+<img src="my_image.jpg" alt="Some image">
+```
+
+As we could see, the *src* attribute is very important, because it gives the information about where the image is located, and the alternative as well, because of the accessibility.
+
+There is much more examples out there, but the main idea is that the attributes are very important when defining the HTML elements.
