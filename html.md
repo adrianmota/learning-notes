@@ -52,11 +52,6 @@ Not all the elements in HTML has content in them, for example:
 ```html
 <br/>
 ```
-This type of elements are called empty elements, which have no content and a closing tag. Another example of that is the following:
-```html
-<img src="./images/photo.jpg" alt="An image" />
-```
-In the last case, we can see that the *img* element has no content defined, but this because we don't define that content by ourselves, in that case the browser is the responsible for that, by the src attribute we only specify the relative or full path of the image, and the browser knows how to show it in the page.
 
 Note: All the HTML elements are not case sensitive, this means that it's the same write title, Title or TITLE, and so on, but the recommendation is to write HTML in lowe case.
 
