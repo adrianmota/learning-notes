@@ -47,3 +47,39 @@ Anothe example is this:
 ```
 
 In the last case, the id attribute is used to identify an element in an unique way, which means that shouldn't be others elements with the same attribute-value, and this is used to afect the element adding styles to it using CSS or changing its behavior with JavaScript.
+
+Not all the elements in HTML has content in them, for example:
+```html
+<br/>
+```
+This type of elements are called empty elements, which have no content and a closing tag. Another example of that is the following:
+```html
+<img src="./images/photo.jpg" alt="An image" />
+```
+In the last case, we can see that the *img* element has no content defined, but this because we don't define that content by ourselves, in that case the browser is the responsible for that, by the src attribute we only specify the relative or full path of the image, and the browser knows how to show it in the page.
+
+Let's take a look to a basic HTML page
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My web page</title>
+  </head>
+  <body>
+    <h1>My first web page</h1>
+    <p>Hi, I'm Adrian Mota</p>
+  </body>
+</html>
+```
+
+In the last example, we could see a basic HTML page, and I will explain each part of that:
+
+## The DOCTYPE declaration
+At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration, what does it mean?, HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the file the following lines are HTML code, and that the HTML version is the last, this is used to indicate the browsers that the page works with the latest features of HTML.
+
+Some browsers doesn't work with the latest version of HTML, and many websites use previous versions of HTML, so, the modern browsers have to deal with previous versions of HTML due to the compatibility. That said, each time we create a new web page, we have to define the type declaration of the document, that indicates that the file is an HTML file and that it's using the lastest HTML version.
+
+Always include at the beginning of all the web pages:
+```html
+<!DOCTYPE html>
+```
