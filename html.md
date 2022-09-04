@@ -122,9 +122,10 @@ But let's explain this basic elements:
 - \<p\>: it is the paragraph element, which represents semantically a paragraph.
 
 ## Attributes
+
 Let's talk about some attributes. As we said before attributes are additional information about the elements. These give that information to affect the element in one or another way.
 
-When we use an \<a\> tag, it is to create a hyperlink, and the attribute made to that purpose is *href* which stands for hyper text reference, where as a value you define an absolute or relative URL to the page that the hyperlink points to. 
+When we use an \<a\> tag, it is to create a hyperlink, and the attribute made for that purpose is *href* which stands for hypertext reference, where as a value you define an absolute or relative URL to the page that the hyperlink points to. 
 
 ```html
 <a href="https://www.wikipedia.org">Visit wikipedia.org</a>
@@ -141,3 +142,22 @@ Another example with images, the \<img\> tag is used to embed images in the HTML
 As we could see, the *src* attribute is very important, because it gives the information about where the image is located, and the alternative as well, because of the accessibility.
 
 There is much more examples out there, but the main idea is that the attributes are very important when defining the HTML elements.
+
+## Formatting in HTML
+
+In HTML we can give format to the text, with the purpose of transmitting some information semantically, or simply give a different look to the text.
+
+Some of the elements that are used to do this are the following:
+
+- \<b\>: this element makes the text **bold**.
+- \<strong\>: this element indicates that the text is important, and also makes the text **bold**.
+- \<i\>: this element is used for making the text *italic*, denote phrases in other languages, change the voice of the text when using screen readers, and so on.
+- \<em\>: this element emphasizes the text.
+- \<sub\>: this element takes the text a half character under the normal text, it's usefull when defining chemical formulas.
+- \<sup\>: this element takes the text a half character over the normal text, it's usefull for some expressions like math formulas.
+- \<del\>: this element indicates that the text has been deleted from the document.
+- \<ins\>: this element indicates that the text has been inserted into the document.
+- \<mark\>: this element is used to mark a text.
+- \<small\>: this element is used to denote text that is smaller than the text around, and its size is relative to the size of the text around, for example, if it's defined inside a paragraph with a specific size, the size of the element's text <\small\> will be set according to the paragraph's size.
+
+## HTML quotations
