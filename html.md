@@ -10,11 +10,11 @@ HTML was developed in the first place by Tim Berners-Lee in 1991, the creator of
 
 ## What is HTML for exactly?
 
-This language is used to describe or define the structure of a web page, what does it mean exactly?, it means the information that is presented in a web browser can be presented in a logical and particular way by the use of HTML elements.
+This language is used to describe or define the structure of a web page, what does it mean exactly? It means the information that is presented in a web browser can be presented in a logical and particular way by using HTML elements.
 
 ## What is an HTML element?
 
-An HTML element is like an object that is used to represent information in a way or another. Text, videos, images, audios, etc., can be presented in the document using HTML elements defined to that purpose. An HTML element is defined using *tags*. Tags are compound by ankle brackets and a word that describes the element itself, and almost all the HTML elements have an opening and closing tag.
+An HTML element is like an object that is used to represent information in a way or another. Text, videos, images, audios, etc., can be presented in the document using HTML elements defined for that purpose. An HTML element is defined using *tags*. Tags are compound by ankle brackets and a word that describes the element itself, and almost all the HTML elements have an opening and closing tag.
 
 This is an example:
 ```html 
@@ -41,19 +41,19 @@ For example:
 
 In the last example we could see that the element has a class attribute, with a value of *bold*, and it can be used by CSS to add styles to that element, or used by JavaScript to affect the element dynamically.
 
-Anothe example is this:
+This is another example:
 ```html
 <h1 id="heading">My Heading</h1>
 ```
 
-In the last case, the id attribute is used to identify an element in an unique way, which means that shouldn't be others elements with the same attribute-value, and this is used to afect the element adding styles to it using CSS or changing its behavior with JavaScript.
+In the last case, the id attribute is used to identify an element in an unique way, which means that there shouldn't be other elements with the same attribute value, and this is used to afect the element adding styles to it using CSS or changing its behavior with JavaScript.
 
 Not all the elements in HTML has content in them, for example:
 ```html
 <br/>
 ```
 
-Note: All the HTML elements are not case sensitive, this means that it's the same write title, Title or TITLE, and so on, but the recommendation is to write HTML in lowe case.
+Note: All the HTML elements are not case sensitive, this means that it's the same write \<title\>, \<Title\> or \<TITLE\>, and so on, but the recommendation is to write HTML in lower case.
 
 Let's take a look to a basic HTML page
 ```html
@@ -69,7 +69,7 @@ Let's take a look to a basic HTML page
 </html>
 ```
 
-In the last example, we could see a basic HTML page, and I will explain each part of that:
+In the last example, we could see a basic HTML page, and I will explain each part of that.
 
 ## The DOCTYPE declaration
 
