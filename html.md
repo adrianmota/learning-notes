@@ -158,6 +158,15 @@ Some of the elements that are used to do this are the following:
 - \<del\>: this element indicates that the text has been deleted from the document.
 - \<ins\>: this element indicates that the text has been inserted into the document.
 - \<mark\>: this element is used to mark a text.
-- \<small\>: this element is used to denote text that is smaller than the text around, and its size is relative to the size of the text around, for example, if it's defined inside a paragraph with a specific size, the size of the element's text <\small\> will be set according to the paragraph's size.
+- \<small\>: this element is used to denote text that is smaller than the text around, and its size is relative to the size of the text around, for example, if it's defined inside a paragraph with a specific size, the size of the element's text <\small\> will be set according to the paragraph' size.
 
 ## HTML quotations
+
+There are multiple ways of making quotations in HTML, between those we have the following:
+
+- \<q\>: this is used to make short quotations.
+- \<blockquoute\>: this is used to make quotations that are from another source. In this element, we specify the source of the quote with the *cite* attribute.
+- \<cite\>: this is used to make reference to the name of artistic work, like movie's name, songs, paints, etc.
+- \<bdo\>: this is used to change the direction of the text. Useful for those languagues where they write to left. We use the *dir* attribute to specify the direction of the text.
+- \<address\>: this is used to specify personal information of an author of a document or an owner, like email, name, location, phone number, etc.
+- \<abbr\>: this is used to specify abbreviations in the page. Useful for browsers, translation systems and search engines. Important to specify the description of the abbreviation using the *title* attribute.
