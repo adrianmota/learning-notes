@@ -10,11 +10,11 @@ HTML was developed in the first place by Tim Berners-Lee in 1991, the creator of
 
 ## What is HTML for exactly?
 
-This language is used to describe or define the structure of a web page, what does it mean exactly? It means the information that is presented in a web browser can be presented in a logical and particular way by using HTML elements.
+This language is used to describe or define the structure of a web page, meaning that the information displayed in a web browser can be presented in a logical and particular way by using HTML elements.
 
 ## What is an HTML element?
 
-An HTML element is like an object that is used to represent information in a way or another. Text, videos, images, audios, etc., can be presented in the document using HTML elements defined for that purpose. An HTML element is defined using *tags*. Tags are compound by ankle brackets and a word that describes the element itself, and almost all the HTML elements have an opening and closing tag.
+An HTML element is like an object that is used to represent information in a way or another. Text, videos, images, audio, etc., can be presented in the document using HTML elements defined for that purpose. An HTML element is defined using *tags*. Tags are compound by ankle brackets and a word that describes the element itself, and almost all the HTML elements have an opening and closing tag.
 
 This is an example:
 ```html 
@@ -53,9 +53,9 @@ Not all the elements in HTML has content in them, for example:
 <br/>
 ```
 
-Note: All the HTML elements are not case sensitive, this means that it's the same write \<title\>, \<Title\> or \<TITLE\>, and so on, but the recommendation is to write HTML in lower case.
+Note: All the HTML elements are not case sensitive, this means that it's the same writing \<title\>, \<Title\> or \<TITLE\>, but the recommendation is to write HTML in lower case.
 
-Let's take a look to a basic HTML page
+Let's take a look to a basic HTML page:
 ```html
 <!DOCTYPE html>
 <html>
@@ -73,7 +73,7 @@ In the last example, we could see a basic HTML page, and I will explain each par
 
 ## The DOCTYPE declaration
 
-At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration, what does it mean?, HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the following lines are HTML code, and that the HTML version is the last, this is used to indicate the browsers that the page works with the latest features of HTML, and to help the browsers show the web pages correctly.
+At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration. HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the following lines are HTML code, and that the HTML version is the last, this is used to indicate the browsers that the page works with the latest features of HTML, and to help the browsers show the web pages correctly.
 
 Many websites use previous versions of HTML, so, the modern browsers have to deal with previous versions of HTML due to the compatibility. That said, each time we create a new web page, we have to define the type declaration of the document, that indicates that the file is an HTML file and that it's using the lastest HTML version.
 
