@@ -55,7 +55,7 @@ Not all the elements in HTML has content in them, for example:
 
 Note: All the HTML elements are not case sensitive, this means that it's the same writing \<title\>, \<Title\> or \<TITLE\>, but the recommendation is to write HTML in lower case.
 
-Let's take a look to a basic HTML page:
+Let's take a look at a basic HTML page:
 ```html
 <!DOCTYPE html>
 <html>
@@ -96,11 +96,11 @@ Example:
 <h6>This is heading 6</h6>
 ```
 
-Note: don't confuse the different levels of headings with size, the heading are used to give meaning, if we want only use the headings because of the size, we must use CSS to change the size of the text instead using the headings.
+Note: don't confuse the different levels of headings with size, the headings are used to give meaning, if we only want to use the headings because of the size, we must use CSS to change the size of the text instead of using headings.
 
 ## Nested HTML elements
 
-An HTML page is compound of nested elements, that's normal. Nested elements means that there are elements into another elements.
+An HTML page is compound of nested elements. Nested elements means that there are elements into another elements.
 
 For example:
 ```html
@@ -116,10 +116,10 @@ For example:
 In the last example we could see that there are HTML elements into other HTML elements, like *h1* inside *body*, and *body* inside *html*, and so on.
 
 But let's explain this basic elements:
-- \<html\>: it is the root element of the page, which represents the whole document. In it are defined the rest of the elements.
-- \<body\>: it is the body element of the page, this represents the visible content of the web page. It goes inside the \<html\> element.
-- \<h1\>: it is the level 1 heading, which is the most important heading in the page.
-- \<p\>: it is the paragraph element, which represents semantically a paragraph.
+- \<html\>: it's the root element of the page, which represents the whole document. In it are defined the rest of the elements.
+- \<body\>: it's the body element of the page, this represents the visible content of the web page. It goes inside the \<html\> element.
+- \<h1\>: it's the level 1 heading, which is the most important heading in a page.
+- \<p\>: it's the paragraph element, which represents a paragraph semantically.
 
 ## Attributes
 
@@ -133,7 +133,7 @@ When we use an \<a\> tag, it is to create a hyperlink, and the attribute made fo
 
 As the example above, this is done to define the page that the hyperlink points to, once clicked over the hyperlink we get that page in the browser's screen.
 
-Another example with images, the \<img\> tag is used to embed images in the HTML document, using the *src* attribute, and we define an alternative text that is shown in case the image isn't loaded because it was not found, the URL are wrong, slow connection, or the client is not a visual browser, etc.
+Another example with images, the \<img\> tag is used to embed images in the HTML document, using the *src* attribute, and we define an alternative text that is shown in case the image isn't loaded because it was not found, the URL is wrong, slow connection, the client is not a visual browser, etc.
 
 ```html
 <img src="my_image.jpg" alt="Some image">
@@ -152,9 +152,9 @@ Some of the elements that are used to do this are the following:
 - \<b\>: this element makes the text **bold**.
 - \<strong\>: this element indicates that the text is important, and also makes the text **bold**.
 - \<i\>: this element is used for making the text *italic*, denote phrases in other languages, change the voice of the text when using screen readers, and so on.
-- \<em\>: this element emphasizes the text.
-- \<sub\>: this element takes the text a half character under the normal text, it's usefull when defining chemical formulas.
-- \<sup\>: this element takes the text a half character over the normal text, it's usefull for some expressions like math formulas.
+- \<em\>: this element emphasizes the text. Also it makes the text italic.
+- \<sub\>: this element takes the text a half character under the normal text, it's useful when defining chemical formulas.
+- \<sup\>: this element takes the text a half character over the normal text, it's useful for some expressions like math equations.
 - \<del\>: this element indicates that the text has been deleted from the document.
 - \<ins\>: this element indicates that the text has been inserted into the document.
 - \<mark\>: this element is used to mark a text.
@@ -162,11 +162,11 @@ Some of the elements that are used to do this are the following:
 
 ## HTML quotations
 
-There are multiple ways of making quotations in HTML, between those we have the following:
+There are multiple ways of making quotations in HTML, among those we have the following:
 
-- \<q\>: this is used to make short quotations.
-- \<blockquoute\>: this is used to make quotations that are from another source. In this element, we specify the source of the quote with the *cite* attribute.
+- \<q\>: this is used for making short quotations.
+- \<blockquoute\>: this is used for making quotations that are from another source. In this element, we specify the source of the quote with the *cite* attribute.
 - \<cite\>: this is used to make reference to the name of artistic work, like movie's name, songs, paints, etc.
-- \<bdo\>: this is used to change the direction of the text. Useful for those languagues where they write to left. We use the *dir* attribute to specify the direction of the text.
+- \<bdo\>: this is used to change the direction of the text. Useful for those languagues where they write from right to left. We use the *dir* attribute to specify the direction of the text.
 - \<address\>: this is used to specify personal information of an author of a document or an owner, like email, name, location, phone number, etc.
 - \<abbr\>: this is used to specify abbreviations in the page. Useful for browsers, translation systems and search engines. Important to specify the description of the abbreviation using the *title* attribute.
