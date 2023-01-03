@@ -7,6 +7,8 @@ C# is a general-purpose, multi-paradigm, high-level programming language develop
 It supports static typing, strong typing, lexical scope, functional and object oriented programming.
 This language can be used to develop desktop apps, web apps and web services.
 
+C# runs in the .NET Framework, but now it is supported by other platforms that implement the CLI (Common Language Infrastructure), like .NET and Mono.
+
 ## Characteristics
 
 C# is a portable language, due to the technical standard and specification called Common Language Infrastructure (CLI), which allows the
@@ -17,7 +19,7 @@ of the CLI.
 
 Here is a basic example of a Hello World program in C#
 
-```c#
+```
 using System;
 
 namespace HelloWorld {
