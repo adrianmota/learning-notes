@@ -19,7 +19,7 @@ of the CLI.
 
 Here is a basic example of a Hello World program in C#
 
-```
+```c#
 using System;
 
 namespace HelloWorld {
