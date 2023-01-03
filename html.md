@@ -6,7 +6,7 @@ HTML stands for **HyperText Markup Language**, this is the language used to defi
 
 HTML is a standard of the web, this means that all the web browsers have to adapt to this technology. If a new feature is added to HTML language specification, all the browsers have to add that feature to maintain the compatibility, although not all the browsers implement the new features, for example *Internet Explorer*.
 
-HTML was developed in the first place by Tim Berners-Lee in 1991, the creator of the web, but the official released was in 1993, and was intended to extend the SGML (Standard Generalized Markup Language), but then HTML became the standard of the web. This language was intended to make easier the tranmission of the information between scientists and the W3C has been adding new features since then.
+HTML was developed in the first place by Tim Berners-Lee in 1991, the creator of the web, but the official release was in 1993, and was intended to extend the SGML (Standard Generalized Markup Language), but then HTML became the standard of the web. This language was intended to make easier the tranmission of the information between scientists. The W3C has been adding new features since then.
 
 ## What is HTML for exactly?
 
@@ -73,9 +73,9 @@ In the last example, we could see a basic HTML page, and I will explain each par
 
 ## The DOCTYPE declaration
 
-At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration. HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the following lines are HTML code, and that the HTML version is the last, this is used to indicate the browsers that the page works with the latest features of HTML, and to help the browsers show the web pages correctly.
+At the beginning of the page, we saw like a tag, but it's not a tag, it is a type declaration. HTML has evolved from multiple versions, and now we are working with the last version which is HTML5, and first we have to indicate that the following lines are HTML code, and that's the last HTML version, this is used to indicate the browsers that the page works with the latest features of HTML, and to help the browsers show the web pages correctly.
 
-Many websites use previous versions of HTML, so, the modern browsers have to deal with previous versions of HTML due to the compatibility. That said, each time we create a new web page, we have to define the type declaration of the document, that indicates that the file is an HTML file and that it's using the lastest HTML version.
+Many websites use previous versions of HTML, so, the modern browsers have to deal with previous versions of HTML due to the compatibility. That said, each time we create a new web page, we have to define the type declaration of the document, that indicates the file is an HTML file and it's using the lastest HTML version.
 
 Always include at the beginning of all the web pages the type declaration:
 ```html
